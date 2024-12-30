@@ -1,0 +1,183 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 37px 110px;
+        background-color: #E1EDE6;
+
+        .header-left{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+        }
+
+        .header-right{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap: 60px;
+
+            a{
+                transition: 0.7s ease-in-out;
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+                color: darkgray;
+            }
+
+            a:hover{
+                color: #2C2D35;
+                transition: 0.7s ease-in-out;
+                transform: scale(1.3);
+            }
+        }
+    }
+}
+
+section.bird-title{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 0 110px 69px 110px;
+    align-items: center;
+    gap: 50px;
+
+    .golub-h2{
+        color: #2C2D35;
+        font-size: 40px;
+        line-height: 20px;
+
+        strong{
+            color: #598D66;
+        }
+    }
+
+    .golub-text-type{
+        color: #86928B;
+        line-height: 27px;
+        font-size: 17px;
+    }
+
+    .bird-production{
+        margin-top: 60px;
+    }
+
+    a{
+        color: rgb(94, 181, 105);
+        text-decoration: none;
+        color: rgb(94, 181, 105);
+        border: rgb(94, 181, 105) 1px solid;
+        padding: 21px 60px;
+    }
+    
+}
+
+section.reproduction{
+
+    margin: 70px;
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 30px;
+        margin: 50px;
+
+        div{
+            display: flex;
+            gap: 32px;
+            color: #2C2D35;
+            align-items: center;
+
+            h2{
+                font-size: 40px;
+                color: #2C2D35;
+            }
+
+            a{
+                color: #2C2D35;
+                background-color: #D4E8D9;
+                border-radius: 20px;
+                padding: 10px 20px;
+                text-decoration: none;
+                transition: 0.7s ease-in-out;
+            }
+
+            a:hover{
+                background-color: #376B44;
+                color: white;
+                transition: 0.7s ease-in-out;
+            }
+        }
+    }
+
+    .reproduction-img-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-around;
+
+        div{
+            background-color: #E1EDE6;
+            padding: 15px;
+            gap: 20px;
+            transition: 0.5s ease-in-out;
+            
+            .reproduction-img-container-text{
+                display: flex;
+                flex-direction: column;
+                line-height: 0px;
+
+                img{
+                    width: 310px;
+                    height: 422px;
+                }
+
+                p.author{
+                    color: #86928B;
+                    font-weight: 500;
+                    font-size: 18px;
+                }
+
+                p.name{
+                    color: #2C2D35;
+                    font-size: 30px;
+                }
+                
+                p.type{
+                    color: #2C2D35;
+                    font-size: 18px;
+                }
+
+                p.price{
+                    color: #598D66;
+                    font-size: 24px;
+                }
+
+                a{
+                    display: block;
+                    text-decoration: none;
+                    color: #598D66;
+                    border: 1px #598D66 solid;
+                    padding: 21px 107px;
+                    text-align: center;
+                }
+            }
+        }
+
+        div:hover{
+            transition: 0.5s ease-in-out;
+            transform: scale(1.05);
+        }
+    }
+}

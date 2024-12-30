@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(252, 199, 208);
+    margin: 0;
+    font-family:initial
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    padding: 0;
+    margin-top: 40px;
+    align-items: center;
+    width: 100%;
+
+    .catalog{
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropcntn{
+        display: none;
+        position: absolute;
+        z-index: 1;
+
+    }
+
+    .catalog:hover{
+
+        .dropcntn{
+            display: block;
+            background-color: aliceblue;
+            width: 100%;
+            
+            a{
+                display: flex;
+                align-self: center;
+                font-weight: 600;
+            }
+        }
+        .dropbtn{
+            cursor: pointer;
+        }
+    }
+
+    p{
+        color: rgba(73, 0, 17, 0.763);
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    a{
+        text-decoration: none;
+        color: rgba(73, 0, 17, 0.731);
+        display: inline-block;
+        padding: 40px 70px;
+        transition: ease-in-out 0.9s;
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    a:hover{
+        background-color: rgb(73, 0, 17);
+        color: rgba(245, 245, 245, 0.539);
+        transition: ease-in-out 0.9s;
+    }
+}
+
+section.flowers{
+    display: flex;
+    justify-content: space-between;
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        float: left;
+        padding-inline: 75px;
+        background-color: rgba(255, 110, 110, 0.607);
+        
+        p{
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .creators{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            a{
+                text-decoration: none;
+                color: rgb(101, 101, 101);
+                transition: ease-in-out 0.9s;
+                font-size: 17px;
+            }
+
+            a:visited{
+                color: rgb(94, 1, 29);
+            }
+
+            a:hover{
+                color: rgb(165, 3, 3);
+                transform: scale(1.5);
+                transition: ease-in-out 0.9s;
+            }
+        }
+    }
+
+    img{
+        width: 80vw;
+    }
+}
+
+section.decrole{
+    img{
+        width: 98.7vw;
+        height: 170px;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+
+    p{
+        font-size: 40px;
+        color: rgb(73, 0, 17);
+    }
+}

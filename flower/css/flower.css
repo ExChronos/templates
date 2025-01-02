@@ -1,0 +1,80 @@
+body {
+  background-color: rgba(26, 112, 192, 0.7058823529);
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 80px 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+header div.logo p {
+  font-size: 25px;
+  font-weight: bold;
+}
+header div.pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 47px;
+}
+header div.pages a {
+  color: white;
+  text-decoration: none;
+}
+header div.pages a:hover {
+  transform: scale(2);
+  transition: ease-in-out 1.5s;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 30px 74px 74px;
+}
+section div.text {
+  position: absolute;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: space-evenly;
+}
+section div.text p.Lorem {
+  font-weight: 500;
+  letter-spacing: 5px;
+  word-spacing: 15px;
+  max-width: 50%;
+}
+section div.text p.intro {
+  letter-spacing: 10px;
+  word-spacing: 15px;
+  position: relative;
+  font-size: 130px;
+}
+section div.text a {
+  color: white;
+  text-decoration: none;
+  background-color: #2D4358;
+  padding: 19px 29px;
+  border-radius: 33px;
+  display: block;
+  width: -moz-max-content;
+  width: max-content;
+}
+section div.text a:hover {
+  background-color: white;
+  color: #2D4358;
+}
+section div.img {
+  position: relative;
+  z-index: -1;
+  right: -28vw;
+  margin-top: 50px;
+}/*# sourceMappingURL=flower.css.map */

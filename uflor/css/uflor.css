@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(252, 199, 208);
+  background-color: rgb(232, 212, 212);
   margin: 0;
   font-family: initial;
 }
@@ -66,9 +66,10 @@ section.flowers nav {
   justify-content: flex-start;
   float: left;
   padding-inline: 75px;
-  background-color: rgba(255, 110, 110, 0.607);
+  background-color: rgb(91, 48, 63);
 }
 section.flowers nav p {
+  color: white;
   font-size: 30px;
   font-weight: 600;
 }
@@ -79,15 +80,11 @@ section.flowers nav .creators {
 }
 section.flowers nav .creators a {
   text-decoration: none;
-  color: rgb(101, 101, 101);
+  color: white;
   transition: ease-in-out 0.9s;
   font-size: 17px;
 }
-section.flowers nav .creators a:visited {
-  color: rgb(94, 1, 29);
-}
 section.flowers nav .creators a:hover {
-  color: rgb(165, 3, 3);
   transform: scale(1.5);
   transition: ease-in-out 0.9s;
 }
@@ -96,13 +93,14 @@ section.flowers img {
 }
 
 section.decrole img {
-  width: 98.7vw;
-  height: 170px;
+  width: 99vw;
+  margin-top: -30px;
 }
 
 footer {
   display: flex;
   justify-content: center;
+  background-color: whitesmoke;
 }
 footer p {
   font-size: 40px;

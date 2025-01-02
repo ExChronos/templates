@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(252, 199, 208);
+    background-color: rgb(232, 212, 212);
     margin: 0;
     font-family:initial
 }
@@ -77,9 +77,10 @@ section.flowers{
         justify-content: flex-start;
         float: left;
         padding-inline: 75px;
-        background-color: rgba(255, 110, 110, 0.607);
+        background-color: rgb(91, 48, 63);
         
         p{
+            color: white;
             font-size: 30px;
             font-weight: 600;
         }
@@ -91,17 +92,17 @@ section.flowers{
 
             a{
                 text-decoration: none;
-                color: rgb(101, 101, 101);
+                color: white;
                 transition: ease-in-out 0.9s;
                 font-size: 17px;
             }
 
             a:visited{
-                color: rgb(94, 1, 29);
+                // color: rgb(94, 1, 29);
             }
 
             a:hover{
-                color: rgb(165, 3, 3);
+                // color: rgb(69, 4, 33);
                 transform: scale(1.5);
                 transition: ease-in-out 0.9s;
             }
@@ -114,15 +115,17 @@ section.flowers{
 }
 
 section.decrole{
+    // background-color: rgb(91, 48, 63);;
     img{
-        width: 98.7vw;
-        height: 170px;
+        width: 99vw;
+        margin-top: -30px;
     }
 }
 
 footer{
     display: flex;
     justify-content: center;
+    background-color: whitesmoke;
 
     p{
         font-size: 40px;
